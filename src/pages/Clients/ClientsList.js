@@ -13,7 +13,7 @@ function ClientsList() {
     },*/
     {
       name: "Google ADS",
-      logo: "images/googleads.png",
+      logo: "images/google.png",
       url: "https://www.accenture.com/",
       description:
         "Grow your business with Google Ads. Get in front of customers when they're searching for businesses like yours on Google Search and Maps. Only pay for results.",
