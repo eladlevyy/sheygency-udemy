@@ -4,19 +4,26 @@ import Numbers from "./Numbers";
 function ClientsList() {
   const [selectedClientIndex, setSelectedClientIndex] = useState(0);
   const clients = [
-    {
+    /*{
       name: "Slack",
       logo: "images/slack.png",
       url: "https://www.tcs.com/",
       description:
         "Slack is a cloud-based set of tools and services that makes it easy to get work done. It’s built for teams of all sizes, and has a simple, beautiful design that’s easy to use and works great on any device.",
+    },*/
+    {
+      name: "Google ADS",
+      logo: "images/googleads.png",
+      url: "https://www.accenture.com/",
+      description:
+        "Grow your business with Google Ads. Get in front of customers when they're searching for businesses like yours on Google Search and Maps. Only pay for results.",
     },
     {
-      name: "Twitter",
-      logo: "images/twitter.png",
-      url: "https://www.infosys.com/",
+      name: "Facebook - Meta",
+      logo: "images/facebook.png",
+      url: "https://www.accenture.com/",
       description:
-        "Twitter is a social networking service that enables users to send and read short 140-character messages called “tweets”.",
+        "Facebook is a social networking site that makes it easy for you to connect and share with family and friends online. Originally designed for college .",
     },
     {
       name: "Instagram",
@@ -26,12 +33,27 @@ function ClientsList() {
         "Instagram is a photo-sharing, video-sharing and communication service that is owned and operated by Facebook, Inc. It was created by Kevin Systrom and Mike Krieger, and launched in October 2010.",
     },
     {
+      name: "TikTok",
+      logo: "images/tiktok.png",
+      url: "https://www.wipro.com/",
+      description:
+        "TikTok is a short-form, video-sharing app that allows users to create and share 15-second videos, on any topic.",
+    },
+    {
+      name: "Twitter",
+      logo: "images/twitter.png",
+      url: "https://www.infosys.com/",
+      description:
+        "Twitter is a social networking service that enables users to send and read short 140-character messages called “tweets”.",
+    },
+
+    /*{
       name: "Spotify",
       logo: "images/spotify.png",
       url: "https://www.hcl.com/",
       description:
         "Spotify is a music streaming service that offers a wide range of music genres, including rock, pop, country, electronic, and more. It was created by Swedish computer programmer and programmer Johan Liljegren in 2007.",
-    },
+    },*/
     {
       name: "Messenger",
       logo: "images/messenger.png",
@@ -40,6 +62,13 @@ function ClientsList() {
         "Messenger is a messaging app that enables users to communicate with their friends and family. It was created by Facebook in 2011.",
     },
     {
+      name: "Google local",
+      logo: "images/localg1.png",
+      url: "https://www.accenture.com/",
+      description:
+        "Explore how to generate leads with Google local service ads to reach local customers by placing your business at the top of Google search.",
+    },
+    /*{
       name: "Cognizant",
       logo: "images/cognizant.png",
       url: "https://www.capgemini.com/",
@@ -52,7 +81,7 @@ function ClientsList() {
       url: "https://www.cognizant.com/",
       description:
         "GitHub is a web-based hosting service for version control of code using the distributed version control (DVCS) model. It was created by Linus Torvalds in 2005.",
-    },
+    },*/
   ];
 
   const next = () => {
@@ -102,12 +131,11 @@ function ClientsList() {
 
       <div className="flex justify-center mt-10">
         <div className="flex space-x-2">
-          {[1, 2, 3, 4,5].map((item, index) => (
+          {[1, 2, 3, 4, 5].map((item, index) => (
             <div
-              onClick={()=>setSelectedClientIndex(index)}
-              className={`bg-gray-200 h-4 w-4 rounded-full cursor-pointer hover:scale-105 transition-all transform duration-300 ${
-                selectedClientIndex === index && "border-2 border-secondary h-5 w-5"
-              }`}
+              onClick={() => setSelectedClientIndex(index)}
+              className={`bg-gray-200 h-4 w-4 rounded-full cursor-pointer hover:scale-105 transition-all transform duration-300 ${selectedClientIndex === index && "border-2 border-secondary h-5 w-5"
+                }`}
             ></div>
           ))}
         </div>
