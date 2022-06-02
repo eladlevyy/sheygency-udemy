@@ -7,8 +7,8 @@ html , body{
     overflow-x: hidden;
 }
 .about-intro {
-  background-color: #ff4e00;
-  background-image: linear-gradient(315deg, #ff4e00, #ec9f05 74%);
+  background-color: #51CDC4;
+  background-image: linear-gradient(315deg, #51CDC4, #a8e6e1 74%);
   overflow-x: hidden !important;
   transform: rotate(12deg);
   position: absolute;

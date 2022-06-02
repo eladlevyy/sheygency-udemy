@@ -16,7 +16,7 @@ function Contact() {
        <div className="flex justify-center mt-32 text-center border-b-2 mx-10">
           <div className=" border-2 p-5 border-b-0">
              <h1 className="text-gray-700 text-xl">Designed and Developed By</h1>
-             <h1 className="text-gray-700  text-xl">Sathyaprakash Reddy</h1>
+             <h1 className="text-gray-700  text-xl">Be Digital 2022</h1>
           </div>
        </div>
     </Layout>

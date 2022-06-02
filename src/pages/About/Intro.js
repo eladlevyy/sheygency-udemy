@@ -13,9 +13,9 @@ function Intro() {
         <img src={AboutIntro} alt="" className='h-[500px] w-[500px]'/>
         </div>
         <div className='z-10 max-w-max flex flex-col space-y-5 sm:-mt-20'>
-           <h1 className='text-8xl font-semibold text-white sm:text-5xl'>SHEYGENCY</h1>
+           <h1 className='text-8xl font-semibold text-white sm:text-5xl'>Be Digital</h1>
            <hr />
-           <h1 className='text-xl text-white'>OLDER | STRONGER | WISER</h1>
+           <h1 className='text-xl text-white'>CREATIVE | STRONGER | WISER</h1>
         </div>
     </div>
     </>
